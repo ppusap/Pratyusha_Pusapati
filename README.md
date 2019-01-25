@@ -35,7 +35,7 @@ The following tools are useful for a programmer to create a web application.
 I am Pratyusha Pusapati, a Master's student from Applied Computer Science department
 
 My first Snow in Maryville, so this picture is always my favorite image
-! [vscode image](https://github.com/ppusap/aboutme/blob/master/Maryville.jpg)
+![vscode image](https://github.com/ppusap/aboutme/raw/master/Maryville.jpg)
 
 
 
