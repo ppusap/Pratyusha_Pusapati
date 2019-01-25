@@ -26,11 +26,13 @@ The following tools are useful for a programmer to create a web application.
 
  ## Recommended Resources
 
-- [W3Schools](https://www.w3schools.com/)- for the basic HTML tutorials
-- [Git Tutorials](https://www.atlassian.com/git/tutorials)
+- [W3Schools](https://www.w3schools.com/html/default.asp) - for the basic HTML tutorials
+- [Git Tutorials](https://www.atlassian.com/git/tutorials) - A very useful guide for beginners
+- [TortoiseGit Tutorials](https://tortoisegit.org/docs/tortoisegit/tgit-dug.html) - Tutorials to get started with TortoiseGit
+-[Markdown Guide](https://www.markdowntutorial.com/) - Useful guide for Markdown.
  
 ## Contributors
-I am Pratyusha Pusapati from Applied Computer Science Department
+I am Pratyusha Pusapati, a Master's student from Applied Computer Science department
 
 
 
