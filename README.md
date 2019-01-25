@@ -25,7 +25,6 @@ The following tools are useful for a programmer to create a web application.
  - JavaScript
 
  ## Recommended Resources
-
 - [W3Schools](https://www.w3schools.com/html/default.asp) - for the basic HTML tutorials
 - [Git Tutorials](https://www.atlassian.com/git/tutorials) - A very useful guide for beginners
 - [TortoiseGit Tutorials](https://tortoisegit.org/docs/tortoisegit/tgit-dug.html) - Tutorials to get started with TortoiseGit
