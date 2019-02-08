@@ -1,0 +1,24 @@
+.backimage{
+    background-image: url(/);
+    position: relative;
+    background-repeat: no-repeat;
+  
+  
+  }
+  h1
+  {
+    color: blueviolet;
+
+    text-align: center;
+    margin: 1rem;   
+    padding-top:1.5rem; 
+    
+   
+  
+  }
+
+  body{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1rem;
+      padding:1rem;
+  } 
