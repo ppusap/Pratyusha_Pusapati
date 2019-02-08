@@ -1,16 +1,12 @@
-.backimage{
-    background-image: url(/);
-    position: relative;
-    background-repeat: no-repeat;
-  
-  
-  }
+
   h1
   {
-    color: blueviolet;
+    color:black;
 
+
+    
     text-align: center;
-    margin: 1rem;   
+    margin: 1.5rem;   
     padding-top:1.5rem; 
     
    
@@ -18,7 +14,59 @@
   }
 
   body{
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1rem;
-      padding:1rem;
+    
+      font-family: sans-serif;
+      font-size: 1.25rem;
+       padding:1rem;
+       text-align: justify;
+       
   } 
+  section
+  {
+     background-color:lightgray;
+    padding: 01rem;
+    border-style: ridge;
+    border-style: dashed;
+    border-radius: 2em;
+    opacity:100%;
+    
+
+  }
+  
+  .image{
+      background-image:url("https://mdbootstrap.com/api/snippets/static/screenshots/102236.jpeg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .color
+  {
+    color:white;
+  }
+  #size
+  {
+    width: 10rem;
+    height: auto;
+    padding-left: 0rem;
+    align-content: center;
+  }
+  .format{
+    border-style: double;
+  }
+  
+#num
+{
+  text-align: center;
+  padding-left: 0.5rem;
+}
+#text
+{
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.icon
+{
+width:3rem;
+height:4rem;
+}
+ 
