@@ -96,3 +96,25 @@ h2{
  font-size: 1rem;
 
 }
+
+#java
+{
+  margin: 6rem;
+}
+
+
+
+#answer{
+
+  padding-bottom: 10rem;
+  color:black;
+
+}
+
+button
+{
+  align-items: center;
+  position: relative;
+  
+
+}

@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <meta name="author" content="Pratyusha Pusapati">
-              
-                <!-- Bootstrap required meta tags-->
-                <meta charset="UTF8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-              
-                <!-- Link to CSS-->
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-                  crossorigin="anonymous">
-              
-                <link rel="stylesheet" href="./styles/pusapati.css">
-              
-                <title>Pratyusha Pusapati</title>
-              
-              
-              
-              </head>
-              
-              <body background="WhatsApp Image 2019-02-08 at 9.44.12 AM.jpeg" class="image">
-              
-              
-                <header>
-                  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                    <a class="navbar-brand" href="index.html">My Site</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-                      aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse flex-container" id="navbarCollapse">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                          <a class="nav-link disable" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disable" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active " href="interaction.html">Conversion</a>
-                        </li>
-                      </ul>
-                      <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </nav>
-                  <h1 id="color">
-                      Pounds to Kilograms Conversion
-                  </h1>
-                  <section id="container">
-                        <p>
-                          Please Enter your Name:
-                          <input type="text" >
-                          <br>
-                          <br>
-                                <label>Pounds</label>
-                                <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-                              </p>
-                              <p>Kilograms: <span id="outputKilograms"></span></p>
-                              
-                              <script>
-                              function weightConverter(valNum) {
-                                document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
-                              }
-                              </script>
-                              <input type="submit" value="Submit">
-                  </section>
 
-                  <footer class="container-fluid color">
-                      <hr>
-                      &copy; 2019 Pratyusha Pusapati
-                    </footer>
-                    
-                
-                  
+<head>
+  <meta name="author" content="Pratyusha Pusapati">
 
-                  </body>
+  <!-- Bootstrap required meta tags-->
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Link to CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles/pusapati.css">
+
+  <title>Pratyusha Pusapati</title>
+
+
+
+</head>
+
+<body background="WhatsApp Image 2019-02-08 at 9.44.12 AM.jpeg" class="image">
+
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">My Site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-container" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link disable" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disable" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="interaction.html">Conversion</a>
+          </li>
+
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <h1 id="color">
+      Grade Calculation 
+    </h1>
+    <section id="container">
+
+      <p id="interact"></p>
+
+      <label class="input">Enter your Course 1 Grade: </label>
+      <input id="cs1" type="number" placeholder="Enter a vaild grade">
+      <br><br>
+
+      <label class="input">Enter your Course 2 Grade: </label>
+      <input id="cs2" type="number" placeholder="Enter a vaild grade">
+      <br><br>
+      <label class="input">Enter your Course 3 Grade: </label>
+      <input id="cs3" type="number" placeholder="Enter a vaild grade">
+      <br><br>
+      <button id="grade" class="btn btn-primary">Click here!!</button>
+      <br><br>
+      <p id="score"></p>
+      <script src="./scripts/pusapati1.js"></script> 
+      
+    </section>
+
+    <footer class="container-fluid color">
+      <hr>
+      &copy; 2019 Pratyusha Pusapati
+    </footer>
+    
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+
+
+</body>
+
 </html>

@@ -23,6 +23,7 @@ The following tools are useful for a programmer to create a web application.
  - HTML
  - Markdown
  - JavaScript
+ - JQuery
 
 ## Recommended Resources
 
