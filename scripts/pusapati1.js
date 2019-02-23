@@ -12,6 +12,7 @@ document.getElementById('grade').addEventListener('click',function()
 
 
 const g1=document.getElementById('cs1').value
+
 const g2=document.getElementById('cs2').value
 const g3=document.getElementById('cs3').value
 
@@ -45,8 +46,17 @@ else
 
 const ans3= 'The Cummulative Grade for this semester is: '+avg(gr1,gr2,gr3)
 document.getElementById('score').innerHTML=ans3
+      localStorage.setItem('final GPA', ans3)  // define a string key to store + its value
+      localStorage.setItem('grade for course 1', gr1)
+      localStorage.setItem('grade for course 2', gr2)
+      localStorage.setItem('grade for course 3', gr3)
+
 
 })
+
+
+
+
 
 
 

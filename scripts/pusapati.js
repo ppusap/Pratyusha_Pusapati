@@ -18,7 +18,10 @@ if((str==""))
 else{
      const ans1="Thanks "+str+" have a nice day!!"
      document.getElementById('disp').innerHTML=ans1}
-
+     
 
 })
+
+
+
 
